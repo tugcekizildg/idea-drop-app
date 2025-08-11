@@ -41,10 +41,25 @@ function IdeaDetailsPage() {
   return (
     <div className='p-4'>
       <div className='flex justify-between items-center mb-6'>
-        <Link to='/ideas' className='text-orange-500 underline block mb-4'>
-          Back To Idea
-        </Link>
+        <div className='flex gap-4'>
+          {' '}
+          <Link
+            to='/ideas'
+            className='text-orange-500 hover:text-orange-700 underline block mb-4 transition-colors duration-300'>
+            Back To Idea
+          </Link>
+          {/* Edit Link */}
+          <Link
+            to='/ideas/$ideaId/edit'
+            params={{ ideaId }}
+            className='text-orange-500 hover:text-orange-700 underline block mb-4 transition-colors duration-300'>
+            Edit
+          </Link>
+        </div>
+        {/* Back Link */}
+
         <div className='relative group'>
+          {/* Delete Button */}
           <button
             disabled={isPending}
             onClick={handleDelete}
