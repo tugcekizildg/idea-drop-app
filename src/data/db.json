@@ -1,0 +1,52 @@
+{
+  "ideas": [
+    {
+      "id": "1",
+      "title": "Neighborhood Tool Library",
+      "summary": "Borrow tools instead of buying them.",
+      "description": "A community-driven platform where neighbors can list and lend tools they own but rarely use, such as drills, lawn mowers, or ladders. The app handles reservations, deposits, and return reminders, promoting sustainability and cost savings.",
+      "tags": ["sharing economy", "sustainability", "community"],
+      "createdAt": "2025-05-01T09:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "AI Meal Planner",
+      "summary": "Personalized weekly meal plans with grocery lists.",
+      "description": "An AI-based application that creates meal plans tailored to dietary preferences, allergies, and budget. It generates detailed grocery lists, suggests recipes, and even integrates with local grocery delivery services.",
+      "tags": ["ai", "food", "health"],
+      "createdAt": "2025-05-02T14:15:00.000Z"
+    },
+    {
+      "id": "3",
+      "title": "Skill Swap Network",
+      "summary": "Trade skills directly without money.",
+      "description": "A barter-style online marketplace where people can offer skills they have in exchange for skills they need. For example, someone could trade guitar lessons for web design help, all without monetary transactions.",
+      "tags": ["education", "community", "marketplace"],
+      "createdAt": "2025-05-03T11:40:00.000Z"
+    },
+    {
+      "id": "4",
+      "title": "Mindful Break App",
+      "summary": "Micro-meditations for busy schedules.",
+      "description": "A mobile app that delivers 2-5 minute guided mindfulness sessions, breathing exercises, and posture reminders throughout the day. Perfect for professionals who need quick stress relief without committing to long sessions.",
+      "tags": ["health", "wellness", "productivity"],
+      "createdAt": "2025-05-04T16:25:00.000Z"
+    },
+    {
+      "id": "5",
+      "title": "Local Event Curator",
+      "summary": "Find hidden gems in your city.",
+      "description": "A curated event discovery platform that surfaces lesser-known concerts, workshops, and pop-up experiences in your city. It uses user interests, location, and past activity to suggest events and offers ticket booking directly in the app.",
+      "tags": ["events", "local", "entertainment"],
+      "createdAt": "2025-05-05T12:50:00.000Z"
+    },
+    {
+      "id": "6",
+      "title": "Green Travel Planner",
+      "summary": "Plan eco-friendly trips effortlessly.",
+      "description": "A travel planning service focused on sustainability, offering routes, accommodations, and activities with low carbon footprints. Includes carbon offset calculators and eco-certification filters for hotels and tours.",
+      "tags": ["travel", "sustainability", "planning"],
+      "createdAt": "2025-05-06T08:35:00.000Z"
+    }
+  ]
+}
