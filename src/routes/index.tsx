@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from '@tanstack/react-router';
+import { createFileRoute } from '@tanstack/react-router';
 import { Lightbulb } from 'lucide-react';
 import { fetchIdeas } from '../api/ideas';
 import { queryOptions, useSuspenseQuery } from '@tanstack/react-query';
@@ -16,7 +16,12 @@ export const Route = createFileRoute('/')({
 
 function HomePage() {
   const { data: ideas } = useSuspenseQuery(ideasQueryOptions);
-  const latestIdeas = ideas.slice(0, 3);
+  const latestIdeas = [...ideas]
+    .sort(
+      (a, b) =>
+        new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+    )
+    .slice(0, 3);
   return (
     <div className='flex flex-col md:flex-row items-start justify-between gap-10 p-6'>
       <div className='flex flex-col items-start gap-4'>
