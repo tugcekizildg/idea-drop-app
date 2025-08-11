@@ -31,9 +31,9 @@ This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.
 
 ## Screenshots
 
-[!DesktopHomePage](./IdeaDropDesktopHomeSc.png)
+![DesktopHomePage](./IdeaDropDesktopHomeSc.png)
 
-[!MobileHomePage](./IdeaDropMobileHomeSc.png)
+![MobileHomePage](./IdeaDropMobileHomeSc.png)
 
 ## Routing
 
