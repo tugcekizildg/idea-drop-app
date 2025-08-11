@@ -41,7 +41,7 @@ This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.
 
 ![EditLinkMobileSc](./EditPageLinkMobileSc.png)
 
-![EditPageMobileSc](./EditPageLinkMobileSc.png)
+![EditPageMobileSc](./EditIdeaPageMobileSc.png)
 
 ## Routing
 
