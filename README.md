@@ -35,6 +35,10 @@ This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.
 
 ![MobileHomePage](./IdeaDropMobileHomeSc.png)
 
+![CreateNewIdeaPage](./CreateNewIdeasMobileSc.png)
+
+![ViewIdeasPageMobileSc](./ViewIdeaPageMobileSc.png)
+
 ## Routing
 
 This project uses [TanStack Router](https://tanstack.com/router). The initial setup is a file based router. Which means that the routes are managed as files in `src/routes`.
